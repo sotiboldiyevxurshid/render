@@ -1,0 +1,149 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap'); */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'Dancing Script', cursive; */
+  font-family: "Roboto Slab", serif;
+}
+
+body {
+  /* background-color: black; */
+  font-family: "Dancing Script", cursive;
+  font-family: "Roboto Slab", serif;
+}
+
+.title_inst {
+  text-align: center;
+  /* font-family: Dancing Script; */
+}
+
+.fatherEl {
+  border: 1px solid rgba(22, 21, 21, 0.3);
+  text-align: center;
+  line-height: 65px;
+}
+
+.form-control {
+  font-family: "Roboto Slab", serif;
+}
+
+.btn {
+  width: 85%;
+  font-family: "Roboto Slab", serif;
+  font-size: 15px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 500;
+}
+
+.or {
+  color: rgba(22, 21, 21, 0.5);
+  font-size: 18px;
+}
+.line {
+  border: 1px solid rgba(22, 21, 21, 0.5);
+  width: 30%;
+}
+
+.graf {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+.grai {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.facebook_span {
+  font-size: 15px;
+  color: rgba(5, 5, 180, 0.8);
+}
+
+.forget_password {
+  font-size: 12px;
+  color: rgba(41, 37, 37, 0.8);
+}
+
+.bottom-registration {
+  border: 1px solid rgba(22, 21, 21, 0.3);
+  width: 29.5%;
+  text-align: center;
+  padding: 15px;
+}
+
+.registration_span {
+  font-size: 13px;
+}
+.registration_a {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.size {
+  width: 29%;
+}
+
+.i-img {
+  background-position: 0px -52px;
+  background-size: auto;
+  width: 175px;
+  height: 51px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  cursor: pointer;
+}
+#eror_message {
+  line-height: 20px;
+  width: 75%;
+  color: red;
+  font-size: 13px;
+}
+.key {
+  background-color: rgb(77, 166, 250);
+  border: none;
+}
+
+.key:hover {
+  background-color: rgb(77, 166, 250);
+  border: none;
+}
+.key:active {
+  background-color: rgb(77, 166, 250);
+  border: none;
+}
+
+@media (max-width: 576px) {
+  .i-img {
+    width: 80%;
+    margin-left: 24.3%;
+  }
+  .size {
+    width: 90%;
+    border: none;
+  }
+  .bottom-registration {
+    width: 100%;
+    border: none;
+  }
+  body {
+    overflow: hidden;
+  }
+  .container {
+    width: 100%;
+  }
+}
+
+.eror{
+  border: 1px solid red;
+  box-shadow: 0px 0px 5px 3px rgb(220, 66, 66,0.8);
+}
